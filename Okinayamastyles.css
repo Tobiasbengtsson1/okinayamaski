@@ -782,8 +782,8 @@ form{
 }
 
 form textarea {
-    background-color: rgb(109, 89, 65);
-    color: #f0efef;
+    background-color: rgb(255, 255, 255);
+    color: brown;
     border-radius: 4px;
     resize: none;
 	width: 80%;
@@ -795,10 +795,10 @@ form textarea {
 }
 
 form input{
-    background-color: rgb(155, 155, 155);
+    background-color: rgb(255, 255, 255);
     border-style: none;
     padding: 0.5em;
-    color: #f0efef;
+    color: brown;
     border-radius: 4px;
     font-size: 1em;
 	width: 80%;
