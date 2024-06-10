@@ -760,10 +760,9 @@ body {
 }
 
 .formcontainer {
-	background-color: #eae3dc;
     width: 67vw;
     padding: 2vw;
-	padding-top: 1vw;
+    padding-top: 1vw;
     color: rgb(109, 89, 65);
 }
 
@@ -783,7 +782,7 @@ form{
 
 form textarea {
     background-color: rgb(255, 255, 255);
-    color: brown;
+    color: rgb(109, 89, 65);;
     border-radius: 4px;
     resize: none;
 	width: 80%;
@@ -798,7 +797,7 @@ form input{
     background-color: rgb(255, 255, 255);
     border-style: none;
     padding: 0.5em;
-    color: brown;
+    color: rgb(109, 89, 65);;
     border-radius: 4px;
     font-size: 1em;
 	width: 80%;
