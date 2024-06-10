@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Enjoying - Okina Yama</title>
+	<link rel="icon" type="image/x-icon" href="bilder/loggan.png">
+	<link rel="stylesheet" type="text/css" href="Okinayamastyles.css">
+</head>
+<body>
+<header>
+	<a href="Index.html">
+		<div id="logo">
+		</div>
+	</a>
+	<div id="search">	
+		<input type="image" id="sökloga" alt= "söklogo" src="bilder/magnifyingglass.png" >
+	</div>
+	<nav>
+		<ul>
+			
+			<li><a href="Skidor.html" class="hover-underline-animation">SKIING</a></li>
+			<li><a href="Boende.html" class="hover-underline-animation" >LIVING</a></li>
+			<li><a href="Enjoy.html" style="text-decoration: underline;">ENJOYING</a></li>
+			<li><a href="Kontakt.html" class="hover-underline-animation">CONTACT US</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="dropdown">
+	<button class="dropbtn"><img src="bilder/hamburger.png" alt="hamburgermenu" ></button>
+		<div class="dropdown-content">
+		    <a href="Skidor.html">SKIING</a>
+		    <a href="Boende.html">LIVING</a>
+		    <a href="Enjoy.html">ENJOYING</a>
+		    <a href="Kontakt.html">CONTACT US</a>
+		</div>
+</div>
+<div class="hero-enjoy">
+	<img id= "xenjoy" src="bilder/spav2.jpg" alt="hero image enjoy"  >
+</div>
+<div class="welcome-text-enjoy">
+		<h1>ENJOYING OKINA YAMA</h1>
+		<p> Whether you're seeking adventure or relaxation, our winter vacation destination offers a wide variety of activities to suit your preferences. In addition to skiing and snowboarding, we offer a variety of exciting activities to add some extra thrills to your winter vacation. Take in breathtaking views of the mountains on a helicopter tour or explore the surrounding wilderness on a scooter safari. For those who prefer a more leisurely pace, our spa facilities offer a range of treatments and therapies to help you unwind and rejuvenate. Whatever your interests, we have something to offer at Okina Yama. 
+		</p>	
+</div>		
+<div class="linje">
+</div>
+<div class="row"> 
+  <div class="column">
+    <img src="bilder/aktivitet1.jpg" alt="" style="width:100%">
+    <img src="bilder/aktivitet2.jpg" alt="" style="width:100%">
+    <img src="bilder/aktivitet10.jpg" alt="" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="bilder/aktivitet4.png" alt="" style="width:100%">
+    <img src="bilder/aktivitet5.jpg" alt="" style="width:100%">
+    <img src="bilder/aktivitet6.jpg" alt="" style="width:100%">
+    <img src="bilder/aktivitet20.jpg" alt="" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="bilder/aktivitet7.jpg" alt="" style="width:100%">
+    <img src="bilder/aktivitet8.jpg" alt="" style="width:100%">
+    <img src="bilder/aktivitet9.jpg" alt="" style="width:100%">
+    <img src="bilder/aktivitet12.jpg" alt="" style="width:100%">
+	<img src="bilder/aktivitet15.jpg" alt="" style="width:100%"> 
+  </div>
+  <div class="column">
+    <img src="bilder/aktivitet13.jpg" alt="" style="width:100%">
+    <img src="bilder/aktivitet17.jpg" alt="" style="width:100%">
+    <img src="bilder/aktivitet16.jpg" alt="" style="width:100%">
+	<img src="bilder/aktivitet18.jpg" alt="" style="width:100%">
+  </div>
+</div>
+<footer>
+	<div class="footerovrestyle">
+		<div class="footerdivlogo">
+			<img src="bilder/loggawb.png" id="logganwbs" style="width: 8vw;" alt="logga">
+		</div>
+		<div class="footerdiv">
+			<ul>
+				<li><h3>Legal</h3></li>
+				<li>Cookies</li>
+				<li>Privacy policy</li>
+			</ul>
+		</div>
+		<div class="footerdiv">
+			<ul>
+				<li><h3>Follow Us</h3></li>
+				<li><img src="bilder/logos.png" alt="fb" style="width: 7vw;"></li>
+			</ul>
+		</div>
+		<div class="footerdiv">
+			<ul>
+				<li><h3>Our Pages</h3>
+				</li>
+				<li>
+					<a style="text-decoration:none; color: white;" href="Index.html">Home
+					</a>
+				</li>
+				<li>
+					<a style="text-decoration:none; color: white;" href="Skidor.html">Skiing
+				</a>
+				</li>
+				<li>
+					<a style="text-decoration:none; color: white;" href="Boende.html"> Living
+					</a>
+				</li>
+				<li>	
+					<a style="text-decoration:none; color: white;" href="Enjoy.html">Enjoying
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+		<div class="footerdiv">
+			<a style="text-decoration:none; color: white;" href="Kontakt.html">
+				<ul>
+					
+						<li><h3>Contact Us</h3></li>
+						<li>+81 261-83-2014</li>
+						<li>FAQ</li>
+				</ul>
+			</a>
+		</div>
+	</div>
+	<hr style="color: white;">
+	<div>
+		<p>Okina Yama Inc.</p>
+	    <p>12840-1 Chikuniotsu, Otari, Kitaazumi District, Yuki No Machi 399-9422, Japan</p>
+		<p>&copy; 2023 Projektgrupp 1. All rights reserved.</p>
+	</div>
+</footer>
+<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+<script>
+		// Get the button:
+	let mybutton = document.getElementById("myBtn");
+
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block";
+	  } else {
+		mybutton.style.display = "none";
+	  }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	  document.body.scrollTop = 0; // For Safari
+	  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+	}
+	</script>
+</body>
+</html>
