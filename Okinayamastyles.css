@@ -728,11 +728,9 @@ body {
 }
 
 .contactinfo {
-	align-items: center;
+    align-items: center;
     width: 25vw;
-    background-color: rgb(109, 89, 65);
-    background-color: rgb(155, 155, 155);
-    color: #d8cfc4;
+    color: rgb(109, 89, 65);
     padding:1vw;
 }
 
@@ -797,7 +795,7 @@ form textarea {
 }
 
 form input{
-    background-color: rgb(109, 89, 65);
+    background-color: rgb(155, 155, 155);
     border-style: none;
     padding: 0.5em;
     color: #f0efef;
